@@ -40,10 +40,10 @@ button {
 }
 
 #result {
-    width: 200px;
-    height: 2.5rem;
-    margin-top: 20px;
-    margin-left: 20px;
+    width: 255px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .actions {
