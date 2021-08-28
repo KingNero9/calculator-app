@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F6F6;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #111;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.dark-mode {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.dark-mode .calc {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .calculator {
+    border: 2px solid white;
+}
+
+button {
+    cursor: pointer;
+    /* width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px; */
+}
+
+#result {
+    width: 200px;
+    height: 2.5rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.actions {
+    display: flex;
+    flex-direction:column;
+}
+
+.calc {
+    background: rgba(0, 0, 0, 0.5); /* light background with opacity 50% */
+    border: 1px solid #111; /* black border */
+    padding: 20px;
+    color: #EEE; /* white text */
+    border-radius: 5px; /* rounded corners */
+    font-size: 22px; /* larger fonts */
+    cursor: pointer; /* make it look clickable */
+}
+
+.numbers {
+    padding: 20px;
+
+    /* the grid stuff! */
+    display: grid;
+
+    /* create 4 columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#toggle {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 345px;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    border-radius: 5px; /* rounded corners */
+    font-size: 22px; /* larger fonts */
+    border: 1px solid #111; /* black border */
+}
+
+#clean {
+    margin-left: 20px;
+    margin-top: 20px;
+}
